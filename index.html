@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing a Little</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="src/Gojo_transparent.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    
+    <header>
+        <a href="http://www.youtube.com/@drawing_a_little" target="_blank" rel="noopener noreferrer" class="logo">
+            <img src="src/Maki_transparent.png" alt="Maki Zenin">
+            <h2 class="caracteristica">Drawing a Little</h2>
+        </a>
+
+        <button id="toggle-theme" aria-label="Cambiar de tema">🌙</button>
+    </header>
+    
+    <!---------- Sidebar     ----------->
+    <aside id="sidebar">
+        <nav class="sidebar-nav">
+            
+            <a href="#galeria">
+                <i class="fa-solid fa-video"></i>
+                <span>Videos</span>
+            </a>
+            
+            <a href="#sobre-mi">
+                <i class="fa-solid fa-user"></i>
+                <span>Sobre mí</span>
+            </a>
+            
+            <a href="#contacto">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Contacto</span>
+            </a>
+            
+            <a href="#sugerencias">
+                <i class="fa-solid fa-lightbulb"></i>
+                <span>Sugerencias</span>
+            </a>
+        
+        </nav>
+    </aside>
+
+    <main class="contenido">
+        <section id="galería">
+            <h2>Videos Recientes</h2>
+            <div class="video-gallery">
+                <div class="video-thumbnail">
+                    <a href="https://www.youtube.com/shorts/fpup6cakQrA?feature=share" class="thumbnail-link" rel="noopener noreferrer" target="_blank">
+                        <img src="src/drawing_a_little_thumbnail.png" alt="Drawing a Little - Sketch">
+                        <div class="overlay"><span class="text">Short Gojo</span></div>
+                    </a>
+                
+                </div>
+
+                <div class="video-thumbnail">
+                    <a href="https://youtu.be/vP3-lO9B7Lw" class="thumbnail-link" target="_blank" rel="noopener noreferrer">
+                        <img src="src/drawing_a_little_thumbnail.png" alt="Drawing a Little - Sketch">
+                        <div class="overlay"><span class="text">How Draw Gojo</span></div>
+                    </a>
+                
+                </div>
+
+                <div class="video-thumbnail">
+                    <a href="https://youtu.be/DbPGf2GrZN8" class="thumbnail-link" target="_blank" rel="noopener noreferrer">
+                        <img src="src/drawing_a_little_thumbnail.png" alt="Drawing a Little - Sketch">
+                        <div class="overlay"><span class="text">How Draw Maki</span></div>
+                    </a>
+                
+                </div>
+
+                <div class="video-thumbnail">
+                    <a href="https://youtu.be/TXoqFGAX88o" class="thumbnail-link" target="_blank" rel="noopener noreferrer">
+                        <img src="src/drawing_a_little_thumbnail.png" alt="Drawing a Little - Sketch">
+                        <div class="overlay"><span class="text">How Draw Sukuna</span></div>
+                    </a>
+                
+                </div>
+
+            </div>
+        </section>
+
+        <!--          Sección SOBRE MI             -->
+        <section id="sobre-mi" class="section-info">
+            <h2>Sobre mí</h2>
+            <p>
+                ¡HOLA! Soy Gerardo Morel, creador de <strong>Drawing a Little</strong>.  
+                Me apasiona el arte, el dibujo digital y compartir lo que aprendo con quienes también aman crear.
+  
+            </p>
+            <p>
+                En este proyecto combino práctica, enseñanza y creatividad para demostrar que todos podemos mejorar cada día, además de utilizar materiales de bajo presupuesto, que casi todos podemos encontrar en nuestra casa.
+            </p>
+        </section>
+
+        <!--              Sección de contacto              -->
+        <section id="contacto" class="seccion-info">
+            <h2>Contacto</h2>
+            <p>Si querés comunicarte conmigo, podés escribirme a: </p>
+                <ul>
+                    <li >Email: <a href="mailto:gera.developer27@gmail.com" rel="noopener noreferrer" class="fa-solid fa-envelope"> gera.developer27@gmail.com
+
+                        </a>
+                    </li>
+                    <li >Instagram: <a href="https://www.instagram.com/drawing_a_little27" target="_blank" rel="noopener noreferrer" aria-label="Instagram_drawing_a_little" class="fa-solid fa-instagram">
+                            Drawing a Little
+                        </a>
+                    </li>
+                    
+                    <li >YouTube:<a href="https://www.youtube.com/@drawing_a_little" target="_blank" rel="noopener noreferrer" aria-label="Canal_en_YouTube" class="fa-solid fa-tv">
+                        drawing a little
+                        </a>
+                    </li>
+                </ul>
+
+        </section>
+
+        <!--        Sección de Sugerencias              -->
+        <section id="sugerencias" class="section-info">
+            <h2>Sugerencias</h2>
+            <p>
+               ¿Tenés una idea, personaje o técnica que te gustaría ver en el canal?  
+                Completá este pequeño formulario y contame: 
+            </p>
+
+            <form action="#" method="post" class="form-sugerencias">
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo" required>
+                <textarea name="mensaje" placeholder="Tu sugerencia..." required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="marca-personal">
+        <p>© 2025 Drawing a Little — Creado por Gerardo Morel</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
