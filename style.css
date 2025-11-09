@@ -14,11 +14,9 @@ html {
 }
 
 body.light {
-    background-image: 
-        linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
-        url('src/img_light.png');
+    background-color: #f8f8f8;
+    background-image: url(src/img_light.png);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -305,7 +303,8 @@ body.light .section-info {
 /* Ahora para el tema claro  */
 
 body.light #sidebar {
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255,255,255,0.85);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 body.light #sidebar:hover {
